@@ -1,0 +1,585 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+            box-sizing:border-box;
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+marquee,
+marquee a{
+    text-decoration: none;
+    background-color: #16335B;
+    height:10%; 
+    display: block;
+    color: #FFFFFF;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight:600;
+    letter-spacing: 0.125rem;
+}
+
+
+/*Top - Header*/
+header{
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    padding:8px 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(148,146,148,1);
+    box-shadow: 0px 3px 6px 0px rgba(148,146,148,1);
+}
+
+.brand_box{
+    width:240px;
+}
+
+.brand_box img{
+    width:100%;
+}
+
+.nav_links{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.nav_links .nav_link{
+    color:#16335B;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 16px;
+}
+
+/*HERO*/
+.hero{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url("images/Login\ Money\ Instagram\ Posts\ -\ Background.png");
+    padding: 80px 40px;
+    background-size: cover;
+}
+
+.hero_left{
+    width:60%;
+    font-family: 'Open Sans', sans-serif;
+    color:#FFFFFF;
+}
+
+.hero_left div{
+    margin-bottom: 8px;
+    margin-top: 52px;
+}
+
+.hero_left div p:first-of-type{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.hero_left div .hero_left-heading span{
+    font-size: 53px;
+    font-family: 'Bakbak One', cursive;
+    margin:4px 0px 16px 0px;
+    display: inline-block;
+}
+
+.hero_left div p:last-of-type{
+    background-color: #FDDB5F;
+    border-radius: 8px;
+    color: #212323;
+    font-weight: 600;
+    padding:12px;
+    display: inline-block;
+}
+
+.hero_left-heading{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.hero_right{
+    width:40%;
+}
+
+.hero_right img{
+    width:80%;
+}
+
+/*CONSULTATION*/
+.consultation{
+    background-color: #16335B;
+    padding:12px;
+    font-family: 'Open Sans', sans-serif;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+
+.consultation p:first-of-type{
+    margin-bottom: 20px;
+    padding:10px 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.consultation p span{
+    font-family: 'Bakbak One', cursive;
+    color:#FDDB5F;
+    font-size: 24px;
+    margin-right:8px;
+    margin-left: 12px;
+}
+
+.consultation:last-child{
+    font-weight: 300;
+}
+
+.consultation a{
+    background-color: #FDDB5F;
+    border-radius: 8px;
+    color: #212323;
+    font-weight: 600;
+    padding:16px;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+
+/*TRENDING COURSES*/
+.pricing,
+.trendingCourses,
+.userReviews,
+.socialLinks{
+    background-color: white;
+    text-align: center;
+    padding:40px;
+}
+
+.section_title{
+    font-family: 'Bakbak One', cursive;
+    color: #16335B;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.section_subtitle{
+    color:#949188;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.accordion-button{
+    font-family: 'Open Sans', sans-serif;
+    color:#16335B;
+    font-weight: 600;
+}
+
+.accordion-body{
+    text-align: left;
+    color:#16335B;
+}
+
+/*PRICING*/
+.pricing{
+    background-color: #FBFBFB;
+}
+
+
+.pricing img{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.pricing section{
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.pricing section article{
+    width: 25%;
+    background-color: #FFFFFF;
+    margin:24px;
+}
+
+
+.pricing_title{
+    background-color: #FDDB5F;
+    color:white;
+    text-align: center;
+    padding:8px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.pricing_courses,
+.pricing_price{
+    color:#16335B;
+    font-family: 'Bakbak One', cursive;
+    margin: 8px 0px;
+}
+
+.pricing_categories{
+    color:#16335B;
+    font-weight: 400;
+}
+
+.pricing_courses-list{
+    margin: 16px 0px;
+    font-size: 16px;
+    color:#16335B;
+    font-weight: 600;
+}
+
+.pricing_price{
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.pricing a{
+    border: 2px solid #16335B;
+    padding:8px 16px;
+    display: inline-block;
+    margin-bottom:32px;
+    border-radius:8px;
+    color:#16335B;
+    font-weight: 700;
+}
+
+.common{
+    background-color: #FDDB5F;
+    color:#16335B;
+    font-weight: 600;
+    padding:8px;
+    padding-top:16px;
+}
+
+.focus_section .pricing_title,
+.focus_section-addOne,
+.fous_section-button{
+    background-color: #16335B;
+}
+
+.focus_section-addOne{
+    color:white;
+    padding: 16px 0px;
+}
+
+.focus_section a{
+    background-color: #16335B;
+    color:white;
+}
+
+.focus_sectionSecond-add{
+    font-weight: 700;
+}
+
+
+/*USER REVIEWS*/
+
+.user_Reviewsbox{
+    margin-top: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    padding:16px;
+}
+
+.userReview{
+    background-color: #16335B;
+    border-radius: 8px;
+    width:80%;
+    color:white;
+    margin-top:100px;
+    padding:16px;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+.userReview img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+    border: 3px solid #fddb5f;
+}
+
+.userReview_title{
+    font-weight:600;
+    margin-bottom:8px;
+    font-size: 20px;
+}
+
+.userReview_position{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.userReview_description{
+    line-height: 2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*BOTTOM*/
+.bottom{
+    padding:12px;
+    font-family: 'Open Sans', sans-serif;
+    color:#16335B;
+    text-align: center;
+}
+
+.bottom a{
+    background-color: #FDDB5F;
+    border-radius: 8px;
+    color: #212323;
+    font-weight: 600;
+    padding:16px;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+
+/*FREE SECTION*/
+.socialLinks{
+    background-color: #FBFBFB;
+}
+
+.socialLinks div img{
+    width:60px;
+    margin:20px;
+}
+
+
+/*FOOTER*/
+.footer{
+    background-color: #183966;
+    padding:20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color:white;
+}
+
+.footer_bottom{
+    color: rgba(243, 237, 237, 0.62);
+}
+
+
+/*TEAM*/
+
+.team{
+    width: 80%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: left;
+    margin:32px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.team img{
+    width:30%;
+    height:25%;
+    border-radius:20px;
+}
+
+.team .subtitle{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.team div{
+    padding-left: 24px;
+}
+
+.team div img{
+    width:48px;
+}
+
+.footer_image{
+    width:20%;
+}
+
+
+
+@media screen and (max-width:940px) {
+    .team{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .team .name{
+        margin-top: 20px;
+    }
+
+    .footer_image{
+        width:30%;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .hero{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding:40px;
+    }
+
+    .hero_left{
+        width:55%;
+        text-align: center;
+    }
+
+    .hero_right{
+        width: 60%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:770px){
+    .hero_left{
+        width:100%;
+    }   
+
+    .pricing{
+        padding:20px 10px;
+    }
+
+    .pricing section article{
+        margin:0px 8px 0px 0px;
+    }
+}
+
+@media screen and (max-width:648px){ 
+
+    .pricing section{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .pricing section article{
+        width:90%;
+        margin:0px 8px 16px 0px;
+    }
+}
+
+@media screen and (max-width:469px){ 
+
+    .hero_right{
+        width:100%;
+    }
+
+    .hero{
+        padding:0 0 20px 0;
+    }
+
+    .userReview{
+        width:100%;
+    }
+
+    .userReviews{
+        padding:12px;
+    }
+
+}
+
+@media screen and (max-width:420px) {
+    .socialLinks div img{
+        margin: 12px;
+    }
+
+    .socialLinks{
+        padding:12px;
+    }
+}
+
+@media screen and (max-width:410px) {
+
+    .team img{
+        width:90%;
+    }
+
+    .footer_image{
+        width:60%;
+    }
+
+    .trendingCourses{
+        padding:12px;
+    }
+    
+    
+    header{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .nav_links{
+        margin-top: 20px;
+    }
+}
